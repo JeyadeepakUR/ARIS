@@ -1,0 +1,59 @@
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Python cache & artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pickle
+*.joblib
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.swp
+
+# Logs & temp files
+*.log
+logs/
+*.tmp
+*.bak
+
+# Streamlit cache
+.streamlit/
+.cache/
+
+# Data & DB
+aris_research_db.sqlite
+analysis_cache/
+knowledge_graphs/
+aris_embeddings/
+*.db
+
+# User uploads
+uploads/
+*.pdf
+*.docx
+*.txt
+*.md
+*.json
+*.csv
+
+# Model downloads (if cached locally)
+*.bin
+*.h5
+*.pt
+*.onnx
+
+# System files
+ehthumbs.db
+desktop.ini
